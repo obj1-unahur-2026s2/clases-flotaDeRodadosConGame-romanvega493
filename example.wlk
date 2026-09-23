@@ -1,3 +1,18 @@
+class Chevrolet{
+  const color
+  method capacidad(){
+    return 4
+  }
+
+  method velocidadMaxima(){
+    return 150
+  }
+
+  method peso(){
+    return 1300
+  }
+}
+
 object trafic {
   var interior = comodo
 
