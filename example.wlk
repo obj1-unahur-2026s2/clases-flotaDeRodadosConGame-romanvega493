@@ -1,6 +1,19 @@
 object trafic {
   var interior = comodo
 
+  var motor = pulenta
+
+  method capacidad() {
+    return interior.capacidad()
+  }
+
+  method velocidadMaxima(){
+    return motor.velocidadMaxima()
+  }
+
+  method peso(){
+    return 4000 + interior.peso() + motor.peso()
+  }
 }
 
 object comodo{
