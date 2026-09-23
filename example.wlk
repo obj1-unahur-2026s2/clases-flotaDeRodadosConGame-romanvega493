@@ -14,6 +14,14 @@ object trafic {
   method peso(){
     return 4000 + interior.peso() + motor.peso()
   }
+
+  method color(){
+    return blanco
+  }
+}
+
+object blanco{
+  
 }
 
 object comodo{
