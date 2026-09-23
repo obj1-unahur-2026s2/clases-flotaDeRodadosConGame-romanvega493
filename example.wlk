@@ -1,9 +1,44 @@
-object pepita {
-  var energy = 100
+object trafic {
+  var interior = comodo
 
-  method energy() = energy
+}
 
-  method fly(minutes) {
-    energy = energy - minutes * 3
+object comodo{
+  method capacidad(){
+    return 5
+  }
+
+  method peso(){
+    return 700
+  }
+}
+
+object popular{
+  method capacidad(){
+    return 12
+  }
+
+  method peso(){
+    return 1000
+  }
+}
+
+object pulenta{
+  method velocidadMaxima(){
+    return 130
+  }
+
+  method peso(){
+    return 800
+  }
+}
+
+object bataton{
+  method velocidadMaxima(){
+    return 80
+  }
+
+  method peso(){
+    return 500
   }
 }
