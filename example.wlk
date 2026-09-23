@@ -13,6 +13,34 @@ class Chevrolet{
   }
 }
 
+class Renault{
+  const tanqueAdicional
+
+  method capacidad(){
+    if (tanqueAdicional){
+      return 3
+    } else {
+      return 4
+    }
+  }
+
+  method velocidadMaxima(){
+    if (tanqueAdicional){
+      return 120
+    } else {
+      return 110
+    }
+  }
+
+  method peso(){
+    if (tanqueAdicional){
+      return 1200 + 150
+    } else {
+      return 1200
+    }
+  }
+}
+
 object trafic {
   var interior = comodo
 
